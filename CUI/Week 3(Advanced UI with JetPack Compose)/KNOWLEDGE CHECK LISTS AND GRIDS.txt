@@ -1,0 +1,43 @@
+1. Which among the following can be used to place its children horizontally?
+
+Column
+
+Row (CORRECT)
+
+Correct! The row displays its children horizontally.
+
+2. Which one of the following arrangements adds space to the first and last child on the list while keeping other items in the center?  
+  
+Space around (CORRECT)
+
+Space between
+
+Space Evenly
+
+Correct! Space Around adds space to the first and last child on the list while keeping other items in the center.    
+
+3. Which of the following arrangements can be used with a Column?  
+  
+Horizontal Arrangement
+
+Vertical Arrangement (CORRECT)
+
+Both Vertical and Horizontal Arrangements
+
+Correct! The Vertical arrangement is used to arrange the children in a Column.    
+
+4. Scrolling is available to a Row and a Column without adding any modifier. 
+   
+True
+
+False (CORRECT)
+
+Correct! A modifier is required to add the scrolling to the row and Column.    
+
+5. For creating a Grid of a small number of elements, a combination of Row and Column composable can be used.  
+  
+True (CORRECT)
+
+False
+
+Correct! You can use the Row and Column together to create a Grid.    

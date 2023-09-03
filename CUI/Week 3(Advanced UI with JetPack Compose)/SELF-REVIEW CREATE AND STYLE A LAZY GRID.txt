@@ -1,0 +1,53 @@
+1. In this exercise, which of the following parameter was passed to GridCells.Adaptive()? 
+
+140.dp as the minimum size (CORRECT)
+
+2 as the count of columns   
+ 
+140.sp as the minimum size 
+   
+Correct! The value accepted by the GridCells.Adaptive() is the minimum size indp.    
+
+2. In this exercise, GridCells.Fixed() defines a grid with as many rows or columns as possible. 
+   
+True
+
+False (CORRECT)
+
+Correct! The GridCells.Adaptive() defines a grid with as many rows or columns as possible.    
+
+3. In this exercise, which one of the following approaches is used to populate the LazyVerticalGrid? Select all that apply.   
+  
+items method (CORRECT) 
+
+forEach
+
+forEachIndexed method  (CORRECT)
+
+Correct! The items method is used to populate multiple items to a LazyVerticalGrid.    
+
+Correct! forEachIndexed provides the item and the sequential index of the item. 
+
+4. Compose provides two types of Grids, which are called LazyVerticalGrid and LazyHorizontalGrid. 
+
+True (CORRECT)
+
+False
+
+That’s right. A Lazy vertical grid displays the items in a vertical scrollable grid, spanned across multiple columns. The Lazy horizontal grid displays the horizontal scrollable grid, spanned across multiple rows. 
+
+5. In this video, a list of dishes was created using the data class Dish.
+
+True (CORRECT)
+
+False
+
+Correct. A list of dishes was created using the data class Dish.
+
+6. In this video, a LazyHorizontalGrid was used to create a Grid.
+
+True
+
+False (CORRECT)
+
+Correct. A LazyVerticalGrid was used to create a Grid.

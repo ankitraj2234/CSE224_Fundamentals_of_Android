@@ -1,0 +1,41 @@
+1. What is the name of the composable used to add text visibility animations?                                                                                     
+Visibility
+
+
+AnimatedVisibility
+
+
+visible
+
+
+The name of the composable used to add text visibility animations in Jetpack Compose is AnimatedVisibility. So, the correct answer is:
+
+AnimatedVisibility
+
+
+
+
+
+2. What is  the name of the enter transition that was added to the text?  
+                                                        
+fade in
+
+
+fade out
+
+
+slide in
+
+The name of the enter transition that is commonly used with AnimatedVisibility to make text appear with a fade-in animation is "fade in." So, the correct answer is:
+
+fade in
+
+
+
+
+
+3. remember delegate preserves visible variable state during recomposition.            
+
+True or False
+
+True. In Jetpack Compose, the remember delegate can be used to preserve the state of a variable across recompositions. This can be particularly useful for maintaining the state of a variable even when the composable function is recomposed, ensuring that the variable's state is retained between recomposition cycles. So, the statement is true.

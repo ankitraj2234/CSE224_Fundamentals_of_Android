@@ -1,0 +1,36 @@
+1. When defining the color resource in the exercise, what class was used?                                                ColorCompose
+
+
+Color
+
+
+ColorYellow
+
+Correct
+That’s correct! Jetpack provides a built-in Color class to work with colors.
+
+2. What was the size of the order button?                                  
+200 sp 
+
+
+The Text size was derived from size of the text.
+
+
+200 dp
+
+Correct
+Correct! The Text size was derived from size of the text by using wrap content.
+
+3. Which Theme color was modified?                            
+primary
+
+
+secondary
+
+
+tertiary 
+
+Correct
+Correct! The primary theme color was modified. By default, the button background color is derived from primary Theme color. 
+
+

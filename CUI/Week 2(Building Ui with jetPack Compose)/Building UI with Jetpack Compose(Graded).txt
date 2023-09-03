@@ -1,0 +1,215 @@
+1. Modifiers can be used to define margins and padding in Jetpack Compose.    
+True (CORRECT)
+False
+That’s correct.  Modifiers can be used to define margins and padding in Jetpack Compose.    
+
+2. What type of UI components can be created with Jetpack Compose?    
+Buttons
+Text boxes
+Menus
+All of the above (CORRECT)
+None of the above
+That’s correct.  All these components can be created with Jetpack Compose.    
+
+3. Which of the following is true when using modifiers with layouts in Jetpack Compose?     
+Modifiers can be used to completely replace the layout.    
+Modifiers can be used to modify the behavior of the layout.    
+Modifiers can be used to customize the appearance of the layout.    
+Modifiers can be used to alter the size, position and other attributes of views.  (CORRECT)  
+Correct! In Jetpack Compose, modifiers can be used to alter the size, position and other attributes of views.    
+
+4. When declaring a state with Jetpack Compose, which of the following is most important?    
+Ensuring that the state is mutable.
+Making sure the state has a unique name.    
+Ensuring that the state is immutable. (CORRECT)  
+Making sure that the state is accessible in all functions.
+That’s correct. Ensuring that the state is immutable is the most important.    
+
+5. What is a recommended approach to ensure that a UI survives configuration changes when using Jetpack Compose?    
+Use the onSaveInstanceState() function to save the UI state.    
+Manually recreate the UI on configuration changes.    
+Use the remember{} function to save the UI state.  (CORRECT)
+Use the rememberSavedInstanceState() function to save the UI state.
+That’s correct, you can use the remember{} function to save the UI state.    
+
+6. What is a Bottom Sheet Scaffold?
+A UI pattern that provides a full screen overlay when triggered.
+A UI pattern that slides up from the bottom of the screen. (CORRECT)
+A UI pattern that provides a side-panel for navigating.
+That’s correct. Scaffold provides the basic structure to build your app, with components such as a top Bottom Sheet Scaffold that can be used to navigate between different screens or display additional content or options.     
+
+7. What is Material Design?    
+Material Design is a system for developing websites.
+Material Design is a framework for creating web applications.
+Material Design is a design system for developing UIs for Android applications.  (CORRECT)   
+Material Design is a language for programming mobile applications.
+That’s correct. Material Design is a design system created by Google for developing UIs for Android, web, and iOS applications.    
+
+8. What type of orientations are supported Android UI development?    
+Horizontal and Vertical (CORRECT)
+Portrait and Landscape
+Fullscreen and Minimized
+Landscape and Portrait
+Horizontal and Vertical is the correct way to refer to an app’s orientation.    
+
+9. Which Jetpack Compose Material components can be implemented as built-in composables?    
+Button
+TextField
+Slider
+Card
+All of the above (CORRECT)
+None of the above
+That’s correct, they are all Material components that can be implemented as built-in composables.    
+
+10. What are UI Patterns?    
+UI Patterns are algorithms used to compute the layout of an Android UI.    
+UI Patterns are data structures used to represent UI elements in an Android UI.    
+UI Patterns are reusable solutions to common user interface problems during Android UI building in Jetpack Compose.    
+UI Patterns are components of an Android UI that can be reused.  (CORRECT)
+That’s correct! UI Patterns are reusable solutions for common user interface problems encountered when building an Android UI in Jetpack Compose.   
+
+
+11. When chaining modifiers, which order are they applied in?     
+                             
+right to left
+
+
+
+top to bottom
+
+
+
+left to right>
+
+
+
+alphabetical order
+
+In Jetpack Compose, modifiers are applied from left to right when chaining1. This means that the measurement and layout of the modifiers on the left will affect the modifier on the right1. The final size of the composable depends on all modifiers passed as a parameter1.
+12. How is the body of a scaffold defined?                            
+with a composable function
+
+
+
+using modifiers
+
+
+
+as a trailing lambda>
+
+
+
+as predefined properties
+
+Correct
+The body of a Scaffold in Jetpack Compose is defined using a trailing lambda.
+
+13. Which of the following is the correct programming term for a user action?
+
+callback
+
+
+
+tapping
+
+
+
+event
+
+
+
+action
+
+14. Which of the following Design Systems can Jetpack Compose make it easy to implement?
+
+
+Uber Design 
+
+
+
+Polaris
+
+
+
+Material Design
+
+
+
+Human Interface Guidelines
+
+Correct
+Jetpack Compose offers an implementation of Material Design, a comprehensive design system for creating digital interfaces. Material Components (buttons, cards, switches, etc.) and layouts like Scaffold are available as composable functions.
+
+15. Which of the following makes material components in Compose adaptable?                                
+lambdas
+
+
+
+modifiers
+
+
+
+slots
+
+
+
+scaffolds
+
+Correct
+ In Jetpack Compose, Material Components are interactive building blocks for creating a user interface. Material Components that support inner content (text labels, icons, etc.) tend to offer “slots” — generic lambdas that accept composable content — as well as public constants, like size and padding, to support laying out inner content to match Material specifications. So, the correct answer is slots.
+
+16. Which of the following Jetpack Compose Material components can be implemented as built-in composables? Select four that apply.                                                     
+Avatar
+
+
+
+
+Slider
+
+
+Correct
+That's correct! A Slider is a built-in composable that can be implemented in Jetpack Compose.
+
+
+Button
+
+
+Correct
+That's correct! A Button is a built-in composable that can be implemented in Jetpack Compose.
+
+
+Card
+
+
+Correct
+That's correct! A Card is a built-in composable that can be implemented in Jetpack Compose.
+
+
+TextField
+
+
+Correct
+That's correct! A TextField is a built-in composable that can be implemented in Jetpack Compose.
+
+
+Pattern
+
+
+17. Which of the following is a common design structure found in many apps?                      
+lambdas
+
+
+
+UI Patterns
+
+
+
+Slots
+
+
+
+Composables
+
+Correct
+Correct! Examples of UI patterns include the top app bar and the navigation drawer.
+

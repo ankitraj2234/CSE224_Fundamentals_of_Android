@@ -1,0 +1,44 @@
+1. What was the name of the composable replaced by xxx defined in this exercise?
+
+@Composable
+fun xxx() {
+ Column {   
+WeeklySpecial()
+  MenuDish()
+   } 
+}
+
+
+BottomPanel 
+
+
+LowerPanel
+
+
+MenuDish
+
+Correct
+Correct! The Composable name was LowerPanel.
+
+2.In this exercise, Image composable loads the image from drawable using __________.
+
+resource()
+
+drawableResource()
+
+drwable using painterResource()
+
+Correct
+Correct! the composable function is used to add the routes for the for the NavHost.
+
+3. In this exercise, which listener was used to perform an action after the button is clicked?
+
+onMouseListener
+
+onKeyListner
+
+onClickListener
+
+
+Correct
+Correct! The onClickListener was used when button is clicked.

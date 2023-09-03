@@ -1,0 +1,45 @@
+1. In the exercise, which property of the Scaffold do you use to add MyBottomNavigation? 
+   
+topBar
+
+bottomBar (CORRECT)
+   
+modifier
+
+Correct! The bottomBar is used to add MyBottomNavigation.    
+
+2. In this exercise, which properties do you set for the BottomNavigationItem. Select all that apply.
+    
+selected (CORRECT)   
+
+onClick (CORRECT)   
+
+label (CORRECT)
+   
+icon (CORRECT)   
+
+Correct! The selected parameter is used to check if the current item is selected.     
+
+Correct! The onClick defines what happens when the current item is clicked.     
+
+Correct! The label is used to set the label for the current item.    
+
+Correct! The icon is used to set the icon for the current item. 
+
+3. In the exercise, which one of the following approaches is used to iterate the list with an index?  
+  
+forEachIndexed method (CORRECT) 
+  
+forEach method
+
+Correct! ForEachIndexed provides the item and the sequential index of the item.    
+
+4. Which attribute prevents adding the same screen more than once to the Back Stack?
+
+popUpTo  
+ 
+NavController (CORRECT)
+   
+NavHost 
+  
+Correct. Set the value launchSingleTop to true while navigating to prevent adding the same screen.

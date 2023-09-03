@@ -1,0 +1,393 @@
+1. What is a Theme composed of?                   
+A collection of composables
+
+
+
+A collection of attributes 
+
+
+
+A collection of views
+
+A collection of attributes.
+
+A theme in the context of UI design is primarily composed of a collection of attributes such as colors, fonts, styles, and other design-related properties that define the visual appearance and behavior of the user interface. It provides a consistent and cohesive look and feel to an application or website. While themes may also include views or composables, the core elements are the attributes that determine the UI's design and functionality.
+
+2. Which of the following hexadecimal values will produce the white color?                                                                
+0x00FFFFFF
+
+
+0x00000000
+
+
+0xFF000000
+
+
+0xFFFFFFFF
+
+
+The hexadecimal value that will produce the white color is:
+
+0xFFFFFFFF
+
+In hexadecimal color notation (ARGB or RGBA), the first two characters represent the alpha (transparency) value, and the remaining six characters represent the red (RR), green (GG), and blue (BB) color components. In this case, the alpha value is set to FF (255 in decimal), which means fully opaque, and the RR, GG, and BB values are all set to FF (255 in decimal), resulting in white.
+
+3. Which of the following correctly creates a text composable with bold text?   
+
+Sol: 
+Text(
+    text = "Hello World!",
+    fontSize = 30.sp,
+    fontWeight = FontWeight.Bold
+)
+
+4. Which of the following correctly creates a text composable with underlined text?
+
+Sol:
+Text(
+    text = "Hello World!",
+    fontSize = 25.sp,
+    textDecoration = TextDecoration.Underline
+)
+
+
+5. Which of the following modifiers will specify the size of a Surface and make it visible?             
+padding
+
+
+border
+
+
+fillMaxSize
+
+
+wrapContentSize
+
+                               
+To specify the size of a Surface and make it visible, you should use the fillMaxSize modifier.
+
+So, the correct modifier from your list is:
+
+fillMaxSize
+
+6. Which of the following is an optional modifier that can be used to change the color of text within a Text composable?                                                                                     
+textColor
+
+
+
+fontColor
+
+
+
+color
+
+
+
+text
+
+
+The optional modifier that can be used to change the color of text within a Text composable in Jetpack Compose is:
+
+color
+You can use the color modifier to specify the text color by providing a Color value. For example:
+
+
+Text(
+    text = "Hello World!",
+    color = Color.Red // Change the text color to red
+)
+
+7. Is it possible to change the shape of Surface corners?               
+True or False
+
+Yes, it is possible to change the shape of Surface corners in Jetpack Compose. You can use the shape modifier to specify a custom shape for the corners of a Surface or other composables. Jetpack Compose provides various predefined shapes like RoundedCornerShape, CutCornerShape, and more. You can also create your own custom shapes if needed.
+
+Here's an example of how you can use the shape modifier to change the shape of the corners of a Surface:
+
+
+Surface(
+    modifier = Modifier.fillMaxSize(),
+    shape = RoundedCornerShape(16.dp) // Change the corner shape to rounded with a radius of 16dp
+) {
+    // Content of the Surface
+}
+In this example, we've used RoundedCornerShape to give the Surface rounded corners. So, the answer is "true."
+
+8. True or False: You can control how long each transition will last.                
+
+True. In Jetpack Compose's animation API, you can control how long each transition will last. You can specify the duration of animations using the durationMillis parameter when defining animations or transitions. This allows you to control the speed and timing of the animations in your user interface, making it possible to create smooth and responsive user experiences.
+
+9. What will be the output of the following code?                                                                                                                                  ﻿
+
+var visible by remember {
+}
+mutableStateOf( value: true)
+Column{this: ColumnScope
+AnimatedVisibility (visible = visible) { this: AnimatedVisibilityScope Text(text = "Hello, world!")
+}
+Button (onClick= { visible = !visible }) { this: RowScope
+Text(text: "Button ")
+}
+}                                            
+The first Button click will instantly show the Text and the following Button click will have no effect.
+
+
+
+The First Button click will start fade in animation of the Text and the following Button click will start fade out animation of the Text.
+
+
+
+The first Button click will instantly hide the Text and the following Button click will instantly show the Text.
+
+
+
+The first Button click will start the fade out animation of the Text and the following Button click will start fade in animation of the Text.>
+
+Correct
+The first Button click will start the fade out animation of the Text and the following Button click will start fade in animation of the Text.
+
+10. Which of the following allow you to separate application design details from the UI structure and behavior?                                                          
+switches
+
+
+components
+
+
+cards
+
+
+Theme
+
+
+The term "Theme" is typically associated with separating application design details from the UI structure and behavior. Themes in various UI frameworks, including Jetpack Compose for Android, allow you to define a set of consistent design attributes, such as colors, typography, and styling, that can be applied across your entire application. This separation of design details from UI structure and behavior helps maintain a cohesive and consistent look and feel throughout the application while allowing for easier design changes and updates.
+
+So, in the context of your question, "Theme" is the option that best allows you to separate application design details from the UI structure and behavior.
+
+11. Which color is represented by the following hexadecimal value?
+
+0xFF000000
+
+
+black 
+
+
+
+gray 
+
+
+
+white 
+
+
+
+blue 
+
+The hexadecimal value 0xFF000000 represents the color black. In hexadecimal color notation (ARGB or RGBA), the first two characters represent the alpha (transparency) value, and the remaining six characters represent the red (RR), green (GG), and blue (BB) color components. In this case, the alpha value is set to FF (255 in decimal), which means fully opaque, and the RR, GG, and BB values are all set to 00, indicating no red, green, or blue color components, resulting in black.
+
+12. Which of the following is the correct way to align a Surface content of a Text composable to the top left of the screen?                                                  
+1. Surface(
+    modifier = Modifier
+        .fillMaxSize() 
+        text = “Hello World!”,
+        fontSize = 30.sp,
+        modifier = Modifier 
+        .wrapContentSize(align = Alignment.TopStart)
+)
+
+
+2. Surface(
+    modifier = Modifier
+        .fillMaxSize()
+        .wrapContentSize(align = Alignment.TopStart)
+
+) {
+    Text(
+        text = “Hello World!”,
+        fontSize = 30.sp,
+        modifier = Modifier 
+        )
+}
+
+
+3.Surface(
+    modifier = Modifier
+        .fillMaxSize()
+) {
+    Text(
+        text = “Hello World!”,
+        fontSize = 30.sp,
+        modifier = Modifier 
+        .wrapContentSize(align = Alignment.TopStart)
+        )
+}
+
+
+4.Surface(
+    modifier = Modifier
+        .fillMaxSize()
+) {
+    Text(
+        text = “Hello World!”,
+        fontSize = 30.sp,
+        modifier = Alignment.TopStart)
+        )
+}
+
+Correct is:
+
+Surface(
+    modifier = Modifier.fillMaxSize()
+) {
+    Text(
+        text = "Hello World!",
+        fontSize = 30.sp,
+        modifier = Modifier.align(Alignment.TopStart)
+    )
+}
+
+
+13. Which of the following improves overall application interactivity, makes products more intuitive and helps attract user attention?
+
+
+wireframes
+
+
+
+event listeners
+
+
+
+UX animation
+
+
+
+styling
+
+
+
+UX animation is the element among the options listed that improves overall application interactivity, makes products more intuitive, and helps attract user attention.
+
+UX (User Experience) animation involves the use of subtle motion and transitions within an application's user interface to enhance the user's experience. Well-designed animations can guide the user's attention, provide feedback on interactions, and make the app feel more responsive and intuitive. They can also add a sense of polish and professionalism to the product.
+
+While wireframes, event listeners, and styling are essential components of UI and UX design, UX animation specifically focuses on enhancing interactivity and user engagement through motion and animation effects.
+
+14. Which of the following will cause the text “Hello World” to fade in and out after clicking a button?
+
+1. var visible by remember {
+      mutableStateOf(true)
+}
+Column  {
+      Button(onClick = {  visible = !visible  })  {
+            Text(“Button“)
+         }
+      if  (
+            visible = visible, 
+            enter = fadeIn(),
+            exit = fadeOut()
+      )  {
+            Text(text = “Hello World”)
+          }
+}
+
+
+
+
+
+2. var visible by remember {
+      mutableStateOf(true)
+}
+Column {
+      Button(onClick = {  visible = !visible  })  {
+            Text(“Button  “)
+      }
+      AnimatedVisibility(
+            visible = visible, 
+            enter,
+            exit
+      )  {
+            Text(text = “Hello World”)
+      }
+}
+
+
+
+3. var visible by remember {
+      mutableStateOf(true)
+}
+Column  {
+      Button(onClick = {  visible = !visible  })  {
+            Text(“Button  “)
+      }
+      AnimatedVisibility(
+            visible, 
+            fadeIn(),
+            fadeOut()
+      )  {
+            Text(text = “Hello World”)
+      }
+}
+
+
+
+4. var visible by remember {
+      mutableStateOf(true)
+}
+Column {
+      Button(onClick = {  visible = !visible  })  {
+            Text(“Button  “)
+      }
+      AnimatedVisibility(
+            visible = visible, 
+            enter = fadeIn(),
+            exit = fadeOut()
+      )  {
+            Text(text = “Hello World”)
+      }
+}
+
+
+The correct option among the ones you provided to cause the text "Hello World" to fade in and out after clicking a button is:
+
+Option 4:
+
+
+var visible by remember {
+    mutableStateOf(true)
+}
+Column {
+    Button(onClick = {  visible = !visible  })  {
+        Text("Button  ")
+    }
+    AnimatedVisibility(
+        visible = visible, 
+        enter = fadeIn(),
+        exit = fadeOut()
+    )  {
+        Text(text = "Hello World")
+    }
+}
+In this option, you're using the AnimatedVisibility composable with the fadeIn() and fadeOut() animations for the enter and exit properties, respectively. This will cause the "Hello World" text to fade in and out when the button is clicked.
+
+15. Which of the following is one of the most common APIs provided by Jetpack Compose to enable various animations?                                                                                                   
+animated visibility API
+
+
+
+appearance API
+
+
+
+visibility API
+
+
+
+animation API
+
+Correct
+animated visibility API
+
+The "animated visibility API" is one of the most common APIs provided by Jetpack Compose to enable various animations. It allows you to animate the visibility of composables, making them appear or disappear with animations. I appreciate your patience and understanding.
+
+
+
+

@@ -1,0 +1,126 @@
+1. Theme is represented as a collection of attributes.  
+                                     True or False
+
+True. A theme can be represented as a collection of attributes or characteristics that define and unify a particular concept or idea. In various creative fields, such as literature, art, film, and design, themes are often conveyed through a combination of elements like symbols, motifs, emotions, and subject matter, which together contribute to the overall meaning and message of the work. These attributes collectively help to communicate and express the central theme of a piece of content or creative expression.
+
+2. Modifying Button style in the theme will not change appearance of every button in the application unless theme style is overridden. 
+
+True or False
+
+False
+
+3. Select all that apply.                                                                                                                                                               
+ The Button height defined in app Theme can be overridden in__________:    
+                                           
+Button composable
+
+
+Android Manifest
+
+
+Button Style
+
+The Button height defined in the app's theme can be overridden in the following:
+
+1.Button composable: In Android development with Jetpack Compose, you can override the Button's height within your Composable functions by specifying a different height value.
+
+2.Button Style: If you have defined a custom Button style in your app's theme, you can override the height by applying a different style to the Button widget or by directly modifying the style attributes (if allowed).
+
+The Android Manifest is not typically used to define specific UI element attributes like Button height, so it does not apply in this context.
+
+4. What do these two characters of hexadecimal ARGB color represent?                  0x 00 <00> 00 00   
+                                       
+Value of blue color 
+
+
+Value of alpha channel
+
+
+Value of green color
+
+
+Value of red color
+
+In the hexadecimal ARGB color representation "0x 00 00 00 00," each pair of two characters represents a component of the color. Here's what each pair represents:
+
+00 00 00 00:
+
+Value of blue color: The first pair of characters (00) represents the blue color component.
+
+Value of green color: The second pair of characters (00) represents the green color component.
+
+Value of red color: The third pair of characters (00) represents the red color component.
+
+Value of alpha channel: The fourth pair of characters (00) represents the alpha channel, which controls the transparency or opacity of the color. In this case, 00 indicates fully transparent or fully opaque (depending on the context).
+
+5. The Decimal numeric system is used to represent Android color resources.        
+
+True or False
+
+False. The decimal numeric system is not typically used to represent Android color resources. Instead, Android commonly uses the hexadecimal numeric system to represent color resources.
+
+In Android, colors are often specified using hexadecimal notation in the format #RRGGBB (for RGB colors) or #AARRGGBB (for ARGB colors), where RR, GG, BB, and AA represent hexadecimal values for the red, green, blue, and alpha components of the color, respectively.
+
+For example, a color in Android might be represented as "#FF0000" for pure red, or "#80FF0000" for semi-transparent red with an alpha value of 50%. Decimal notation is not the standard way to represent colors in Android XML resources or code.
+
+
+6. Which unit would you use to set text size? 
+                         
+sp(scalable pixel)
+
+
+dp (density independent pixel)
+
+
+both sp and dp can be used
+
+
+To set text size in Android, you would typically use the sp (scalable pixel) unit. This is because sp takes into account the user's preferred font size settings in their device's accessibility settings, making it suitable for text size adjustments to accommodate varying user needs.
+
+While you can technically use dp (density-independent pixel) to set text size, it's not the recommended practice for text because dp doesn't consider the user's font size preferences. Using dp for text size may result in text that is not as accessible or adaptable to different users' visual needs.
+
+So, the most appropriate unit for setting text size in Android is sp.
+
+7. Which arguments of text can be provided using Text composable? Select all that apply.                                                             
+font weight
+
+
+font size
+
+
+letter spacing
+
+
+font color
+
+All are Correct
+
+The Text composable in Jetpack Compose allows you to provide the following arguments:
+
+Font size: You can specify the font size of the text using the fontSize argument.
+
+Font color: You can specify the font color using the color argument.
+
+So, font size and font color can be provided using the Text composable.
+
+All are Correct
+
+However, the other two options mentioned, font weight and letter spacing, are not directly provided as arguments to the Text composable. To adjust font weight, you would typically use a FontWeight modifier, and for letter spacing, you would use a Modifier like Modifier.letterSpacing().
+
+8. The White color is represented by __________- value in the ARGB color space. 
+
+
+ 0x00000000    
+
+
+FF000000
+
+
+ FFFFFFFF    
+
+
+ 00FF0000    
+
+Correct
+ Correct! This hexadecimal value represents a white color. The F means maximum value for each color.    
+

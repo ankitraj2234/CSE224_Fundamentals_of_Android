@@ -1,0 +1,47 @@
+1. In this exercise, which function did you call to make the Column Scrollable? 
+   
+Modifier.horizontalScroll() 
+   
+Modifier.verticallScroll()   (CORRECT) 
+
+Modifier.imeNestedScroll()   
+ 
+Correct! The verticallScroll() is used for scrolling vertically.    
+
+2. In this exercise, which property is used for arranging Row items? 
+   
+verticalArrangement
+
+horizontalArrangement (CORRECT)
+
+Correct! The horizontalArrangement is used with Row for arranging the children horizontally.    
+
+3. In this exercise, which one of the following approaches was used to populate the Grid?
+    
+forEachIndexed method
+
+forEach method
+
+repeat method (CORRECT)
+
+Correct! repeat is used to repeat the GalleryCell() to populate the Grid.    
+
+4. The ___________________ is an arrangement position where the first child starts and the last child ends and equally distributes the remaining items in between.
+
+Space Around arrangement
+
+Space Between arrangement (CORRECT)
+
+Space Evenly arrangement
+
+Correct! The Space Between is an arrangement position where the first child starts and the last child ends and equally distributes the remaining items in between.
+
+5. Each item in a Grid is known as a ____________.
+
+Cell (CORRECT)
+
+Row
+
+Column
+
+That’s correct. Each item in a grid is known as a Cell.

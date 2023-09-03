@@ -1,0 +1,95 @@
+1. Declarative UI programming allows developers to define the UI and its behavior in a concise and expressive way by describing the desired result instead of the details of how to achieve it.
+
+
+True
+
+
+False
+
+Correct
+That’s correct.  This describes the concept behind Jetpack Compose's declarative UI programming model.
+
+2. In Jetpack Compose the ‘Compose’ item can best be described as:
+
+
+a.Compose is a tool that builds a UI without needing to use an Activity
+
+This should not be selected
+An activity is the app component that contains the user interface and represents the app screen and is a required part of Android UI building.   
+
+
+b.A library for developing UI that is part of the Jetpack suite.
+
+Correct
+That’s correct! Compose is a library for developing UI and is part of the Jetpack suite.
+
+
+c.A reusable view component.
+
+Correct
+
+3. What are the three main benefits to using a declarative approach when building an Android UI? Select all that apply.
+
+Less complex UI components 
+
+
+Easier to read and debug code
+
+Correct
+That’s correct! This can be a benefit of the declarative approach.
+
+
+More succinct code
+
+Correct
+That’s correct! This can be a benefit of the declarative approach.
+
+
+Improved performance 
+
+Correct
+That’s correct! This can be a benefit of the declarative approach.
+
+
+Reduced need for unit tests 
+
+
+
+4. In this code,a composable function is defined. What is the name of this function?
+
+@Composable%0D%0A
+fun MainPanel(name: String) {%0D%0A    
+Text(text = "$name")%0D%0A
+}
+
+
+
+Composable
+
+
+Text
+
+
+MainPanel
+
+Correct
+That’s correct!  MainPanel is the name of the function.
+
+5. In this code, a composable function is defined. In the second-last code line the “name” argument is passed to another function Text. What is the best description of this function?
+
+@Composable%0D%0A
+fun MainPanel(name: String) {%0D%0A    
+Text(text = "$name")%0D%0A
+}
+
+
+A variable          
+
+
+A function written by the developer.
+
+
+A built-in composable function in the Compose library.
+
+Correct
+That’s correct! Text, is a built-in composable function in Compose library and it is responsible for creating the text UI element that appears on the screen.

@@ -1,0 +1,203 @@
+1. Imagine you are building an Android app in which you will need multiple UI elements consisting of the same structure. Which of the following is true about how you should define the composable for this UI element? 
+     
+You should use the traditional view system instead.
+
+
+
+You should define the composable once in such a way that it is reusable. 
+
+
+
+You should define one composable for each occurrence of the UI element. 
+
+
+
+You should ensure the composable is the root of the tree
+
+Ans: You should define the composable once in such a way that it is reusable.
+
+When building UI elements that share the same structure, it's best practice to define a single composable function that represents the structure and behavior of that element. This allows you to reuse the composable throughout your app and maintain a consistent look and behavior across different occurrences of the UI element. This approach aligns well with the principles of declarative UI programming and the reusability benefits of composable functions in Jetpack Compose.
+
+2.Which of the following does an Activity represent?                                                                    
+The app screen
+
+
+
+the program entry point
+
+
+
+navigation elements
+
+
+
+A text element 
+
+Ans: An Activity in Android represents:
+
+The app screen
+
+An Activity is a fundamental building block of an Android app and represents a single screen with a user interface. Each screen in an app is typically implemented as an Activity, which can contain various UI elements and functionality.
+
+3.Which of the following is true about XML documents?  
+                                 
+XML files contain composable functions.
+
+
+
+XML documents are made of activities
+
+
+
+All XML documents are hierarchical. 
+
+
+
+XML files are easy to maintain. 
+
+
+
+
+Ans: The statement that is true about XML documents is:
+
+All XML documents are hierarchical.
+
+XML (eXtensible Markup Language) documents are structured in a hierarchical manner using elements and tags to define the data's structure and relationships. This hierarchical structure is one of the key characteristics of XML. The other statements provided are not accurate.
+
+
+4. Which of the following states are part of the Activity Lifecycle in Android UI Development?                                          Select three that apply     
+                                     
+Deleted
+
+
+
+Created
+
+
+
+Resumed
+
+
+
+Started
+
+
+
+
+Ans: The three states that are part of the Activity Lifecycle in Android UI Development are:
+
+Created
+Resumed
+Started
+These are key states that an Activity can transition through as it interacts with the user and the system.
+
+5.Which of the following are examples of view groups? Select all that apply.            
+RelativeLayout     
+GridViewLayout   
+FrameLayout 
+LinearLayout                              
+
+Ans: Among the options you provided, the examples of view groups are:
+
+RelativeLayout
+FrameLayout
+LinearLayout
+The correct options are RelativeLayout, FrameLayout, and LinearLayout. The option "GridViewLayout" is not a standard Android view group; the correct term is GridLayout.
+
+6.Which of the following is based on the declarative approach? 
+                                                       
+Inheritance
+
+
+
+the traditional view system
+
+
+
+Jetpack Compose
+
+
+
+the View class
+
+
+
+Ans: Jetpack Compose is based on the declarative approach.
+
+Jetpack Compose is a modern UI toolkit for Android development that employs a declarative programming paradigm. It allows developers to build user interfaces by describing the desired outcome in a high-level and concise manner, rather than specifying the detailed steps to achieve that outcome. This is in contrast to the imperative approach, which is commonly used in the traditional view system and involves specifying the sequence of operations to create and update UI components.
+
+
+
+7. Which of these is a way to preview the appearance of an Android UI?                                                                      
+Use the Android Studio Debugger.
+
+
+
+Use the Android Studio Emulator.
+
+
+
+Use the Android Studio Layout Editor.
+
+
+
+Ans: Use the Android Studio Layout Editor.
+
+The Android Studio Layout Editor provides a visual way to design and preview the appearance of an Android UI. It allows you to interactively design UI layouts and see how they will look on different devices and screen sizes. While the Android Studio Emulator and Debugger have their own purposes, they are not primarily used for previewing the appearance of the UI design.
+
+8.Which of the following is a collection of views organized in a well defined manner?       
+                                                       
+View group
+
+
+
+View container
+
+
+
+User Interface
+
+
+
+Ans: View group and View container are often used interchangeably to refer to a collection of views organized in a well-defined manner.
+
+
+A view group is a type of view in Android that can contain other views. It provides a way to organize and layout multiple views within a specific arrangement. This allows you to create complex UI layouts by arranging views in a structured manner. The term "view container" is sometimes used interchangeably with "view group," and "user interface" refers to the overall interface that users interact with, which can include multiple views organized within view groups.
+
+
+User Interface refers to the overall interface that users interact with, which can include multiple views organized within view groups or containers.
+
+So, both View group and View container are correct answers in this context.
+
+9. Which of the following do XML elements correspond to?                                                           
+View groups
+
+
+
+Layouts
+
+
+
+View subclasses
+
+
+
+Ans: XML elements in Android correspond to:
+
+View subclasses
+
+XML elements define various UI components in Android, which are instances of different view subclasses. These view subclasses represent various UI elements such as buttons, text fields, images, and more. The structure and attributes of XML elements define the properties and behaviors of these UI components.
+
+10. Which of the following are most commonly used simple layouts? Select all that apply.     
+                                                          
+Column 
+Box 
+Row 
+Image
+
+Ans: Among the options provided, the most commonly used simple layouts are:
+
+
+Box
+Row
+These layouts provide ways to arrange UI elements in a linear or stacked manner. The "Image" option is not a layout but rather a UI element used to display images within a layout.

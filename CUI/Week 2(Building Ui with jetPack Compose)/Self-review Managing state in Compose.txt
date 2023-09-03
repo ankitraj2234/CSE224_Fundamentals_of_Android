@@ -1,0 +1,83 @@
+1. In this exercise, the padding Modifier was used to properly space composables.
+
+True 
+False
+
+Correct
+Correct! The padding Modifier was used to properly space composables.  
+
+2. In this exercise, which callback was used to monitor the Text composable value change?
+
+onValueUpdate
+
+onTextChange
+
+onValueChange
+
+
+Correct
+Correct! The onValueChange callback is used to monitor any changes in text state.
+
+3. In the exercise, how was the username and password retrieved from Text composable?
+
+using text property
+
+
+using string property
+
+
+using field property
+
+Correct
+Correct! The text property was used to verify if the username and passwords are valid.
+
+4. You can also preserve the state by saving relevant information in the memory but also on the disk, using file write ups or storage in a database. Check all that apply.
+
+Saving relevant information in the memory (CORRECT)
+
+Saving information on a disk (CORRECT)
+
+Saving information using file write ups (CORRECT)
+
+
+Saving information using a database (CORRECT)
+
+Correct! You can also preserve the state by saving relevant information in the memory.
+
+Correct! You can also preserve the state by saving relevant information on a disk.
+
+Correct! You can also preserve the state by saving relevant information using file write ups.
+
+Correct! You can also preserve the state by saving relevant information using a database.
+
+5. Compose provides a special composable function called remember.
+
+True (CORRECT)
+
+False
+
+That’s correct. Compose provides a special composable [1] function called remember.
+
+6. When you start up your Little Lemon app and you run the composable functions you defined for the first time to produce the UI, it is called ________________.
+
+Composition (CORRECT)
+
+Recomposition
+
+That’s correct. When you start up your Little Lemon app and you run the composable functions you defined for the first time to produce the UI, it is called Composition.
+
+7. In this video, remember was replaced by rememberSaveable to prevent the state even after the orientation changes.
+
+True (CORRECT)
+
+False 
+
+Correct. remember was replaced by rememberSaveable to prevent the state even after the orientation changes.
+
+8. ____________________ means that you should define your composable function in such a way that, if you need a similar user interface element in your UI, you should be able to simply recall the same composable but this time passing in the new parameters.
+
+Reusability (CORRECT)
+
+Stateful composable
+
+That’s correct! Reusability means that you should define your composable function in such a way that, if you need a similar user interface element in your UI, you should be able to simply recall the same composable but this time passing in the new parameters.

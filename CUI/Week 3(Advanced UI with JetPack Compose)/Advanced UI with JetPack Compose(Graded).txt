@@ -1,0 +1,278 @@
+1. Which of the following are required to add navigation between multiple screens? Select all that apply. 
+
+NavController (CORRECT)
+
+NavHost (CORRECT)
+
+NavGraph (CORRECT)
+
+Correct! A NavController is required to trigger navigation between screen.
+
+Correct! A NavHost is required to link a NavController with a NavGraph.
+
+Correct! A NavGraph is required by the NavHost to navigate between composables.
+
+2. The type of the route variable which corresponds to the destination in navigation graph is ________ .
+
+Boolean
+
+String (CORRECT)
+
+Int
+
+Correct! The route is a String unique for every destination.  
+
+3. True or false. The object keyword is used for creating an object without creating the class. 
+
+True (CORRECT)
+
+False
+
+Correct. The object keyword is used for creating an object without creating the class.
+
+4. In Navigation, for passing the arguments the default argument type is _______
+
+Boolean
+
+String (CORRECT)
+
+Int
+
+Correct! The Route is a String unique for every destination.  
+
+5. In Navigation, __________ function is used for constructing a new argument.
+
+argument()
+
+navArgument() (CORRECT)
+
+argumentNav()
+
+Correct! The navArgument() is used for constructing a new argument. 
+
+6. It is the best practice that the Bottom navigation must contain __________ 
+
+any number of Destinations
+
+three to five Destinations (CORRECT)
+
+one or two Destinations 
+
+Correct! It is best practice that the Bottom navigation must contain three to five Destinations.
+
+7. What among the following elements is scrollable without adding the modifier? Select all that apply.
+ 
+LazyRow (CORRECT)
+
+Row
+
+Column
+
+LazyColumn (CORRECT)
+
+Correct! LazyRow is scrollable without adding the modifier.
+
+Correct! LazyColumn is scrollable without adding the modifier.
+
+8. What is the most suitable element when you have an unknown or large number of items? Select all that apply. 
+
+Column
+
+LazyRow (CORRECT)
+
+LazyColumn (CORRECT)
+
+Row 
+Correct! Lazy Layouts are most suitable when you have an unknown or large number of items.
+
+Correct! Lazy Layouts are most suitable when you have an unknown or large number of items.
+
+9. Which among the following are the parameters of the composable function defined in the NavHost? Select all that apply. 
+
+arguments (CORRECT)
+
+navController
+
+route (CORRECT)
+
+startDestination 
+
+Correct! arguments are used to provide a list of arguments for the next destination.
+
+Correct! The route is used to define the route of the destination.
+
+10. ________ is a collection of navigable destinations.  
+  
+NavHost    
+
+NavGraph (CORRECT) 
+   
+NavController 
+  
+NavGraph is a collection of navigatable destinations.  
+
+11. Which of the following statements is true about defining a constant argument in a Destination?              
+It is required.
+
+
+
+ It helps organize the arguments.
+
+
+
+It reduces the amount of required code.
+
+The statement "It helps organize the arguments" is true about defining a constant argument in a Destination.
+
+12. What is each bottom navigation element called?                    
+ navigationItem
+
+
+
+ bottomNavigationItem
+
+
+
+ bottomNavItem
+
+
+Each element in a bottom navigation bar is typically referred to as a "bottomNavigationItem."
+
+Bottom navigation bars are commonly used in mobile app interfaces to provide navigation between different sections or screens of an app. Each item in the bottom navigation bar represents a distinct destination or feature within the app, and these items are often called "bottomNavigationItems."
+
+For example, a bottom navigation bar in an app might have items like "Home," "Search," "Favorites," and "Profile," with each of these items being a "bottomNavigationItem" that users can tap to navigate to a specific part of the app. 
+
+13. Which of the following is the correct way to pass the argUserName variable in the below Destination object to navArgument?  
+
+navArgument(Profile.argUserName) {
+    type = NavType.StringType
+}
+
+Here's why this is correct:
+
+Profile.argUserName is used to access the constant argUserName defined within the Profile object. This ensures that you are using the correct argument key.
+
+navArgument is a function that takes the argument key as its parameter to define the navigation argument.
+
+type = NavType.StringType specifies the type of the argument, indicating that it is a string type.
+
+So, the correct code sets up the navigation argument using the constant argument key Profile.argUserName and specifies its type as a string.
+
+14. What is the back stack used for in Android?                                       
+forward navigation
+
+
+
+ generating routes
+
+
+
+ backward navigation
+
+
+
+ database queries
+
+
+The back stack in Android is used for "backward navigation."
+
+In Android app development, the back stack is a fundamental concept related to navigation within the app. It keeps track of the history of screens or activities that the user has visited. When the user presses the back button or navigates backward in the app, the system pops the top entry from the back stack, effectively navigating the user to the previous screen or state.
+
+So, the back stack is used to manage and enable backward navigation in Android apps, allowing users to return to previously visited screens or activities. This helps users navigate through the app's hierarchy and maintain a sense of context within the app.
+
+15. Which of the following must each NavHost be associated with?                                
+ A single NavController.
+
+
+
+The NavGraph.
+
+
+
+ A route.
+
+
+
+A destination.
+
+
+
+Each NavHost must be associated with a single NavController.
+
+In Android's Navigation Component, a NavController is responsible for managing navigation within a particular section of your app. A NavHost is essentially a container for displaying fragments or composables that represent destinations within your app's navigation graph.
+
+You use a NavController to navigate between destinations within a NavHost, and it ensures that the navigation flows correctly as defined in the associated navigation graph. Each NavHost is associated with one NavController to handle the navigation within that specific portion of your app.
+
+So, the correct answer is: "A single NavController."
+
+16. True or False: The object keyword is used for creating an object without creating the class. 
+                                 
+True.
+
+In many programming languages, including Kotlin, the object keyword is used to create an instance of a class and declare it as a singleton object. This means that you can create an object with its properties and methods without explicitly defining a separate class for it. The object keyword is often used when you want to create a single instance of a class to represent a unique entity or utility.
+
+For example, in Kotlin, you can create a singleton object like this:
+
+
+object MySingleton {
+    fun doSomething() {
+        // Code here
+    }
+}
+You can then access the methods and properties of MySingleton without creating an instance of it:MySingleton.doSomething()
+So, the statement is true: the object keyword is used for creating an object without creating a separate class explicitly.
+
+17. Which of the following is used to add spacing around the content displayed in lazy lists and grids?                            
+ contentPadding
+
+
+
+ Vertical Arrangement
+
+
+
+ padding
+
+
+
+The correct option used to add spacing around the content displayed in lazy lists and grids, such as LazyColumn and LazyRow, is contentPadding.
+
+contentPadding is a modifier that you can apply to a Composable like LazyColumn or LazyRow to add spacing around the content inside the container. It allows you to define padding for the content within the lazy list or grid, creating space between the items.
+
+For example:
+
+
+LazyColumn(
+    contentPadding = PaddingValues(16.dp) // Adds 16dp of padding around the content
+) {
+    // List items go here
+}
+So, contentPadding is the correct option for adding spacing around the content in lazy lists and grids.
+
+18. Which of the following best describes what a NavHost is?                                            
+NavHost is responsible for keeping track of the back stack.
+
+
+
+ NavHost acts as a container for displaying the current destination.
+
+
+
+NavHost is a collection of navigable destinations.
+
+
+
+
+The following statement best describes what a NavHost is:
+
+"NavHost acts as a container for displaying the current destination."
+
+A NavHost in Android's Navigation Component is a container that displays the UI associated with the current destination. It is responsible for managing the navigation within a specific section or region of your app and dynamically inflating and displaying the appropriate destination's UI. The NavHost ensures that the UI for the current destination is visible to the user.
+
+While a NavHost does work with navigation and destinations, it is primarily a container that hosts the UI of the currently navigated destination.
+
+
+
+
+
+  

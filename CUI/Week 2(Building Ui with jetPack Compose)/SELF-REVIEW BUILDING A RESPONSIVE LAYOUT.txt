@@ -1,0 +1,53 @@
+1. In this exercise, what are the supported orientations?
+
+horizontal
+
+landscape (CORRECT)
+
+portrait (CORRECT)
+
+Correct! App supports both orientations portrait and landscape.
+
+Correct! App supports both orientations portrait and landscape.
+
+2. In this exercise device orientation was retrieved using configuration.landscape property.
+
+True
+
+False (CORRECT)
+
+Correct! The device orientation was retrieved using configuration.orientation property.
+
+3. In this exercise, how many layouts where used? 
+
+three layouts
+
+two layouts (CORRECT)
+
+one layout
+
+Correct! Two layouts are required – one for the orientation landscape and one for portrait orientation.
+
+4. The scaffold is a customizable layout that provides support to add various UI structures and components.
+
+True (CORRECT)
+
+False
+
+Correct! Scaffolds are customizable layouts that provide support to add various UI structures and components.
+
+5. A ________________ is a parameter that can accept composable content as generic lambda. 
+
+slot (CORRECT)
+
+stateless composable
+
+That’s correct. A slot is a parameter that can accept composable content as generic lambda.
+
+6. The state of the UI components in a scaffold can be held by _________________. It is a class in Compose.
+
+scaffold state (CORRECT)  
+  
+suspended function
+
+That’s correct. The state of the UI components in a scaffold can be held by. It is a class in Compose.
